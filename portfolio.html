@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+  <title>Ni Lin's Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="graphic designer, ni lin, george brown" />
+  <meta name="description" content="Ni Lin is a graphic designer located in Toronto" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./portfolio.css" />
+<script>
+$(document).ready(function() {
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
+
+$(window).scroll(function(e){
+    parallax();
+});
+$("#l1").click(function() {
+$("#img1").trigger("click");
+});
+ $("#l2").click(function() {
+$("#img2").trigger("click");
+});
+ $("#l3").click(function() {
+$("#img3").trigger("click");
+});
+  $("#l4").click(function() {
+$("#img4").trigger("click");
+});
+   $("#l5").click(function() {
+$("#img5").trigger("click");
+});
+$("#l6").click(function() {
+$("#img6").trigger("click");
+});
+ $("#l7").click(function() {
+$("#img7").trigger("click");
+});
+ $("#l8").click(function() {
+$("#img8").trigger("click");
+});
+ $("#l9").click(function() {
+$("#img9").trigger("click");
+});
+ $("#l10").click(function() {
+$("#img10").trigger("click");
+});
+ $("#l11").click(function() {
+$("#img11").trigger("click");
+});
+ 
+ $("#img1").click(function() {
+        $("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img1").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+ $("#img2").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img2").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+ $("#img3").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img3").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+ $("#img4").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img4").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+ $("#img5").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img5").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+ $("#img6").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img6").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+
+ $("#img7").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img7").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+
+ $("#img8").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img8").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+
+ $("#img9").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img9").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+
+ $("#img10").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img10").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+
+ $("#img11").click(function() {
+$("#displayarea").empty();
+        $("#displayarea").append("<img src='" + $("#img11").attr("src") + "' height='auto' width='400'/> <br> Description:");
+    });
+
+
+
+
+
+
+});
+</script>
+
+</head>
+<body>
+<nav>
+<ul>
+    <li>
+        <a href="#">HOME</a>
+    </li>
+
+    <li>
+        <a href="#about">ABOUT</a>
+   </li>
+<li>
+<a href="#strength">STRENGTH</a>
+</li>
+    <li>
+        <a href="#portfolio">PORTFOLIO</a>
+
+        <ul>
+            <li><a id="l1" href="#portfolio">LETTERHEAD</a></li>
+            <li><a id="l2" href="#portfolio">RESTAURANT MENU</a></li>
+            <li><a id="l3" href="#portfolio">TYPE FACE</a></li>
+            <li><a id="l4" href="#portfolio">RESTAURANT PACKAGE</a></li>
+            <li><a id="l5" href="#portfolio">PAINTING</a></li>
+        <li><a id="l6" href="#portfolio">PHOTOGRAPHY</a></li>
+      <li><a id="l7" href="#portfolio">DIOR POSTER</a></li>
+      <li><a id="l8" href="#portfolio">JADORE POSTER</a></li>
+       <li><a id="l9" href="#portfolio">POSTER</a></li>
+       <li><a id="l10" href="#portfolio">SKETCH</a></li>
+     <li><a id="l11" href="#portfolio">SKETCH</a></li>
+       
+        </ul>
+
+    </li>
+     <li>
+        <a href="#inspiration">INSPIRATION</a>
+    </li>
+    <li>
+        <a href="#contact">CONTACT</a>
+    </li>
+   <li>
+       <a href="./sitemap.html">SITEMAP</a>
+    </li>
+</ul>
+</nav>
+<div class="bg"></div>
+<div class="container">
+<div class="jumbotron">
+  <h1>Ni Lin</h1>
+  <p class="lead">Welcome!</p>
+</div>
+</div>
+
+
+<section id="about" class="container">
+  <div class="row">  
+    <h2 class="text-center">About</h2>
+    <div class="col-sm-6 text-right">
+      <img src="./portfolio/selfie.jpg" alt="niniphoto" height="400" width="auto"/>
+    </div>
+    <div class="col-sm-6">
+      Ni Lin is currently a student at George Brown College enrolled in Graphic Design Program. She loves to travel.
+    </div>     
+ </div>
+<hr>
+</section>
+  
+<section id="strength" class="container">
+  <div class="row">
+    <h2 class="text-center">Strength</h2>
+      </div>
+<hr>
+</section>
+  <section id="portfolio" class="container">
+<div class="row">
+ <h2 class="text-center">Portfolio</h2>
+
+</div>
+<div class="row">
+<div class="col-sm-6 text-right">
+<div class="img">
+  
+    <img src="./portfolio/Letterhead.jpg" id="img1" alt="letterhead" width="150" height="150" />
+     <img src="./portfolio/restaurant.png" id="img2" alt="restaurant" width="150" height="150" />
+<img src="./portfolio/typeface.png" id="img3" alt="typeface" width="150" height="150" />
+<img src="./portfolio/package.png" id="img4" alt="package" width="150" height="150" />
+<img src="./portfolio/painting.jpg" id="img5" alt="painting" width="150" height="150" />
+<img src="./portfolio/photography.jpg" id="img6" alt="photography" width="150" height="150" />
+<img src="./portfolio/dior.png" id="img7" alt="dior" width="150" height="150" />
+<img src="./portfolio/jadore.png" id="img8" alt="jadore" width="150" height="150" />
+<img src="./portfolio/poster.png" id="img9" alt="poster" width="150" height="150" />
+<img src="./portfolio/sketch.jpg" id="img10" alt="sketch" width="150" height="150" />
+<img src="./portfolio/sketch1.jpg" id="img11" alt="sketch1" width="150" height="150" />
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div id="displayarea" class="col-sm-6">
+
+</div>
+
+</section>
+  <section id="inspiration" class="container">
+<hr>
+    <div class="row text-center">
+    <h2 class="text-center">Inspirational Sites</h2><br>
+</div>
+<div class="row">
+<div class="col-sm-4 text-right">
+<h5><a href="http://www.w3schools.com/">w3schools</a></h5>
+</div>
+<div class="col-sm-8 text-left">
+    <iframe height="400" width="600"sandbox="allow-forms allow-same-origin allow-scripts"src="http://www.w3schools.com/"></iframe>
+</div>
+</div>
+ <div class="row">
+<div class="col-sm-4 text-right">
+<h5><a href="http://www.mesmerizingquotes.com/">Mesmerizing Quotes</a></h5>
+</div>
+<div class="col-sm-8 text-left"> 
+ <iframe height="400" width="600"src="http://www.mesmerizingquotes.com/"></iframe>
+</div>
+</div>
+
+<div class="row text-center">
+<h5><a href="http://www.brainyquote.com/">Brainy Quotes</a></h5>
+<h5><a href="http://www.designclever.co.uk/">Design Clever</a></h5>
+<h5><a href="http://www.cameronmoll.com/">Cameron Moll</a></h5>
+</div>
+
+
+ </section>
+
+<section id="contact" class="container">
+<hr>
+<div class="row">
+<h2 class="text-center">Contact</h2><br>
+<div class="col-sm-6 text-center">
+<h4>Ni Lin</h4>
+<p>Telephone: 657-443-2543</p>
+
+<p>Email: <a href="mailto:nini_barcelona@hotmail.com">nini_barcelona@hotmail.com</a>
+</p>
+</div>
+<div class="col-sm-6">
+<h4>Leave a Comment:</h4>
+<form role="form" id="myform">
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Email:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+<div class="form-group">
+  <label for="comment">Comment:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+ <button type="button" class="btn btn-default" onclick="alert('Comment has been submitted!')">Submit</button>
+ <button type="button" class="btn btn-default" onclick="document.getElementById('myform').reset()">Reset</button>
+
+
+  </form>
+
+</div>
+</div>
+</section>
+<div class="container">
+<hr>	
+<div class="row">
+      <div class="col-md-12 text-center"><p>The End.</p></div>
+    
+</div>
+</div>
+</body>
+</html>

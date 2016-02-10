@@ -1,0 +1,91 @@
+body {
+padding:0;
+margin:0;
+
+    background-color: white;
+}
+nav li li{
+    width: 100%;
+    float:none;  
+    background: black;
+}
+
+nav {
+position:fixed;
+font-family: 'Josefin Sans', sans-serif;
+z-index:1;
+}
+
+nav li {
+display:block;
+padding-right:3px;
+background-color: #000;
+float:left;
+list-style:none;
+}
+
+nav a {
+text-decoration: none;
+font-size: 17px;
+color: white;
+padding-left:10px;
+padding-right:10px;
+text-align: center;
+display: block;
+
+}
+nav a:hover {
+color:white;
+text-decoration:none;
+background: #d04576;
+
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+ -ms-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+nav ul li ul {
+padding:0;
+display:none;
+width:100%;
+}
+
+nav li:hover ul {
+display: block;
+width:100%;
+}
+.bg {
+  background: url('./zebra.jpg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 700px;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.jumbotron {
+
+padding:200px;
+padding-top:300px;  height: 700px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+}
+
+
+div.img img:hover {
+cursor:pointer;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+ -ms-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+opacity:0.4;
+}
+div.img img {
+padding:2px;
+
+}
